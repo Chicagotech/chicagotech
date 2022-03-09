@@ -21,7 +21,6 @@ $winApi = add-type  -name user32 -passThru `
    );'
 
 $notepad_1 = start-process -passThru notepad
-$notepad_2 = start-process -passThru notepad
 
 #
 # Wait for application windows to be created
